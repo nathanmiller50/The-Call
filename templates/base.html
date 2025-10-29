@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ title | default("The Call") }}</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="/">The Call</a></h1>
+      <nav aria-label="Primary">
+        <a href="/">Home</a> ·
+        <a href="/about.html">About</a> ·
+        <a href="/SOCIALS.md">Socials</a> ·
+        <a href="/ministry-opportunities.md">Ministries</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Page content should be injected here by your generator or copied in place -->
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Nathan Miller — Licensed under MIT</p>
+    </div>
+  </footer>
+</body>
+</html>
